@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>What is PBL?</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Understanding Project-Based Learning</h1>
+    <nav class="link-box">
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="pbl.html">PBL</a> |
+      <a href="project.html">Projects</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+ <style>
+    :root {
+      --bg-gradient: linear-gradient(135deg, #3498db, #8e44ad);
+      --primary-color: #fff;
+      --link-box-bg: rgba(255, 255, 255, 0.15);
+      --link-box-border: #fff;
+      --footer-bg: rgba(0, 0, 0, 0.7);
+      --footer-text: #fff;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      background: var(--bg-gradient);
+      background-attachment: fixed;
+      color: var(--primary-color);
+      font-family: 'Noto Sans', sans-serif;
+    }
+
+    header {
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Roboto Mono', monospace;
+    }
+
+    .link-box {
+      background: var(--link-box-bg);
+      border: 1px solid var(--link-box-border);
+      border-radius: 8px;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      margin-top: 0.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 0.5rem;
+      padding: 0.25rem 0.5rem;
+      display: inline-block;
+      transition: background 0.3s, opacity 0.3s;
+    }
+    nav a:hover {
+      background: rgba(255, 255, 255, 0.25);
+      opacity: 0.9;
+    }
+
+    main {
+      flex: 1 0 auto;
+      padding: 2rem;
+      text-align: left;
+    }
+    main h2 {
+      font-family: 'Roboto Mono', monospace;
+      margin-top: 1.5rem;
+      text-align: left;
+    }
+    p {
+      line-height: 1.6;
+    }
+
+    footer {
+      flex-shrink: 0;
+      background: var(--footer-bg);
+      color: var(--footer-text);
+      padding: 1.5rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    footer p {
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      body { font-size: 14px; }
+    }
+  </style>
+
+  <main>
+  <section>
+    <h1>About SGVP International School</h1>
+    <p>
+      SGVP International School is a premier educational institution committed to nurturing academic excellence, personal growth, and cultural values.
+      Located in a serene and modern campus, SGVP offers a holistic learning environment that prepares students to thrive in a global society.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Vision</h2>
+    <p>
+      To empower students with knowledge, integrity, and leadership to become responsible global citizens.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>
+      We aim to provide a well-rounded education that balances academics, sports, arts, and spiritual values. At SGVP, we strive to inspire a lifelong
+      love for learning and a deep sense of compassion and respect for others.
+    </p>
+  </section>
+
+  <section>
+    <h2>Why Choose SGVP?</h2>
+    <ul>
+      <li>International curriculum and experienced faculty</li>
+      <li>Modern campus with smart classrooms and labs</li>
+      <li>Emphasis on values, leadership, and innovation</li>
+      <li>Strong sports, arts, and extracurricular programs</li>
+    </ul>
+  </section>
+
+
+</main>
+
+
+  <footer>
+    <p>© SGVP International School, Ahmedabad · 2025</p>
+  </footer>
+
+  <script src="qrcode.min.js"></script>
+  <script src="qrcode.js"></script>
+</body>
+</html>
+
